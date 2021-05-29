@@ -1,0 +1,84 @@
+.header-container {
+  display: none;
+  margin: 0;
+  padding: 0;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    background-color: #313131;
+  
+
+  .logo {
+    height: 80%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    margin-left: 80px;
+    
+    .logo-icon {
+      width: 80%;
+    }
+  }
+  .flex-right {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+
+    width: 500px;
+    .show-user{
+      color:#fff;
+      font-size: 19px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .login{
+      width: 110px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      p{
+        color:#fff;
+        font-size: 12px;
+      }
+    }
+   
+    .link-signup,
+    .link-logout {
+    font-size: 15px;
+      text-decoration: none;
+      color: #fff;
+      transition: all 0.1s ease-out;
+      &:hover {
+        color: #1e36ab;
+      }
+    }
+    .basket{
+      display: flex;
+      align-items: center;
+      &:hover .basket-icon,&:hover .count-item{
+        color: #5B9CF4;
+      }
+      .link-basket{
+        color:#fff;
+        font-size: 15px;
+      }
+      .basket-icon{
+        font-size: 28px;
+       
+      }
+      .count-item{
+        font-size: 14px;
+        color:#fff;
+        margin-top:50%;
+      }
+
+    }
+    
+    .link-logout{
+      color:#fff;
+      font-size: 16px;
+      cursor: pointer;
+    
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.payment-checkout{
+    padding:10px 10px 10px 10px;
+    
+    .title-page{
+        font-size: 35px;
+        margin-bottom: 50px;
+        margin:5px auto;
+    }
+    .container-payment{
+        box-shadow:2px 1px 2px 1px rgba(0,0,0,0.1);
+        margin-top:100px;
+        
+        
+        img{
+            width: 120px;
+            height: auto;
+        }
+        .title{
+            font-size: 16px;
+        }
+        .price-checkout{
+            font-size: 15px;
+        }
+    }
+}
